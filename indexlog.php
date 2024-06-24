@@ -15,12 +15,11 @@
 
 <body>
 
-
   <section class="vh-100">
     <div class="container py-5 h-100">
       <div class="row d-flex align-items-center justify-content-center h-100">
         <div class="col-md-8 col-lg-7 col-xl-6">
-          <img src="ubcinewlogo.png" class="img-fluid" alt="Phone image" height="300px" width="600px">
+          <img src="ubcilogo.png" class="img-fluid" alt="Phone image" height="300px" width="600px">
         </div>
         <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
           <form action="login.php" method="post">
@@ -29,42 +28,33 @@
             <div class="form-outline mb-4">
               <label class="form-label" for="form1Example13"> <i class="bi bi-person-circle"></i> Nom et Prénom</label>
               <input type="email" id="form1Example13" class="form-control form-control-lg py-3" name="username" autocomplete="off" placeholder="enter your e-mail" style="border-radius:25px ;" />
-
             </div>
 
             <!-- Password input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="form1Example23"><i class="bi bi-chat-left-dots-fill"></i> Mot de passe</label>
               <input type="password" id="form1Example23" class="form-control form-control-lg py-3" name="password" autocomplete="off" placeholder="enter your password" style="border-radius:25px ;" />
-
             </div>
 
-
             <!-- Submit button -->
-            <!-- <button type="submit" class="btn btn-primary btn-lg">Login in</button> -->
             <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
               <input type="submit" value="Connecter" name="login" class="btn btn-warning btn-lg text-light my-2 py-3" style="width:100% ; border-radius: 30px; font-weight:600;background-color: blue;" />
             </div>
 
+            <!-- Forgot Password link -->
+            <div class="text-center">
+              <a href="forgot_password.php" class="text-primary" style="text-decoration:none;">Mot de passe oublié ?</a>
+            </div>
           </form><br>
-          <p align="center">Vous n'avez pas de compte ?<a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Créer un compte</a></p>
+          <p align="center">Vous n'avez pas de compte ? <a href="register.php" class="text-warning" style="font-weight:600;text-decoration:none;">Créer un compte</a></p>
         </div>
       </div>
     </div>
   </section>
 
-
-
-
-
-
-
   <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -88,7 +88,7 @@
                   <p align="center"> J'ai déjà un compte <a href="indexlog.php" class="text-warning" style="font-weight:600; text-decoration:none;">Connecter</a></p>
                 </div>
                 <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-                  <img src="Login (1).jpg" class="img-fluid" alt="Sample image" height="300px" width="500px">
+                  <img src="ubcinewlogo.PNG" class="img-fluid" alt="Sample image" height="300px" width="500px">
                 </div>
               </div>
             </div>
