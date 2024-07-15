@@ -25,7 +25,7 @@ if (isset($_POST['login'])) {
         if ($row['role'] == 0) {
             header('Location: archif.php');
         } else if ($row['role'] == 1) {
-            header('Location: index.php');
+            header('Location: homeadmin.php');
         }
         exit;
     } else {

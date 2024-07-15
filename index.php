@@ -27,11 +27,6 @@ $path = "uploads/todo.xlsx";
 
 if (isset($_POST["submit"])) {
 
-
-
-
-
-
   $target_dir = "uploads/";
   $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
   $uploadOk = 1;
@@ -461,6 +456,7 @@ if (isset($_POST["submit"])) {
     border: 1px solid green;
     padding: 10px;
   }
+  
 
   /* Clear floats after the columns */
   .row::after {
@@ -508,7 +504,7 @@ if (isset($_POST["submit"])) {
   <!-- Sidebar (hidden by default) -->
   <nav class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;z-index:2;" id="mySidebar">
     <a href="javascript:void(0)" onclick="close_menu()" class="w3-bar-item w3-button">Fermer Menu</a>
-    <a href="modifierCompte.php" onclick="close_menu()" class="w3-bar-item w3-button">Modifier compte</a>
+    <a href="homeadmin.php" onclick="close_menu()" class="w3-bar-item w3-button">Home</a>
     <a href="logout.php" onclick="close_menu()" class="w3-bar-item w3-button">Log Out</a>
   </nav>
 
